@@ -30,7 +30,6 @@ with open("EmployeData/employeeDetails.csv", mode="r", encoding="utf-8") as file
 # # Load pipeline once (not inside function to save time)
 # pipeline = Pipeline.from_pretrained(
 #     "pyannote/speaker-diarization",
-#     use_auth_token="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"
 # )
 
 # print(pipeline)
